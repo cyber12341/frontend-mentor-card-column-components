@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Quicksand:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+* {
+  font-size: 15px;
+}
+
+p {
+  @apply text-neutral-white-transparent font-normal;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+  @apply bg-neutral-gray-very-light;
+}
+
+button {
+  @apply bg-neutral-gray-very-light rounded-full px-2 py-2 w-2/3;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply text-neutral-gray-very-light;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+h1 {
+  @apply font-bold text-4xl;
+}
